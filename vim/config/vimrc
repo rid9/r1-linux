@@ -1,0 +1,15 @@
+source $VIMRUNTIME/defaults.vim
+let skip_defaults_vim=1
+
+set nocompatible
+set backspace=2
+set mouse=
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set autoindent
+set nowrap
+
+au BufEnter Makefile set noexpandtab
+
+syntax on

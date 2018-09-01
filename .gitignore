@@ -1,0 +1,7 @@
+*/sources
+*/work
+*/files
+*.swp
+.*
+!.gitignore
+!.gitmodules
